@@ -68,7 +68,7 @@ class GoLogin:
         """
         logurl = self.session.urls["login"]
 
-        loginData = OrderedDict()
+        loginData = OrderedDict() 
         loginData["username"] = user,
         loginData["password"] = passwd,
         loginData["appid"] = "otn",
